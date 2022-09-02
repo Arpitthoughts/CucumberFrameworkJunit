@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: Search and place the order for Products
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.076 s <<< FAILURE! - in Search and place the order for Products
+Search and place the order for Products.Search Experience for product search in both home and offers page #2  Time elapsed: 10.816 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Beetroot]> but was:<[No data]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.OffersPageStepDefinition.productname_is_offers_page_and_homepage_should_be_same(OffersPageStepDefinition.java:59)
+	at ✽.Productname is offers page and homepage should be same(file:///D:/BDD/CucumberFrameworkJunit/src/test/java/features/searchProduct.feature:8)
+
